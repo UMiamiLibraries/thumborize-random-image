@@ -1,6 +1,6 @@
 <?php
 
-$random_Image = function ($width, $height) {
+$random_Image = function () {
     $image_vault_path = dirname(__FILE__) . '/../assets/image_vault';
 
     $files = glob($image_vault_path . '/*.*');
@@ -12,4 +12,4 @@ $random_Image = function ($width, $height) {
 
 };
 
-$random_Image(htmlspecialchars($_GET['width']), htmlspecialchars($_GET['height']));
+$random_Image();
