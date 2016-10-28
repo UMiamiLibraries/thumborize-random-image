@@ -4,7 +4,6 @@ $width = htmlspecialchars($_GET['width']);
 $height = htmlspecialchars($_GET['height']);
 ?>
 
-<img id='original' src="">
 <img id='thumborized' src="">
 
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
